@@ -1,6 +1,9 @@
 ## Timezone Converter with React.js: Manage and Compare Timezones
 The Timezone Converter is a web-based tool that allows you to convert and compare different timezones easily. You can add timezones, compare their current times, and make conversions as needed (using sliders).
 
+Explore the Timezone Converter now : https://timezoneconverter.netlify.app/ 
+[Timezone Converter](https://timezoneconverter.netlify.app/) 
+
 # Features
 - Add Timezones: Select and add various timezones to the converter, so you can easily compare times between them.
 
