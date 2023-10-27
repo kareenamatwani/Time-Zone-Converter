@@ -3,12 +3,12 @@ import moment from 'moment-timezone';
 import 'moment-timezone/data/meta/latest.json';
 import './TimeZoneSelector.css';
 import Select from 'react-select';
-import DatePicker from 'react-datepicker'; 
+//import DatePicker from 'react-datepicker'; 
 import 'react-datepicker/dist/react-datepicker.css'; // Import styles for react-datepicker
 
 function TimeZoneSelector({ addTimeZone }) {
   const [selectedOption, setSelectedOption] = useState(null);
-  const [selectedDate, setSelectedDate] = useState(null); // Add selectedDate state
+ // const [selectedDate, setSelectedDate] = useState(null); // Add selectedDate state
   const [options, setOptions] = useState([]);
   const [timeZoneList, setTimeZoneList] = useState([]);
 
@@ -37,9 +37,9 @@ function TimeZoneSelector({ addTimeZone }) {
     return filteredTimeZones;
   };
 
-  const handleDateChange = (date) => {
-    setSelectedDate(date); // Update selectedDate when the date picker value changes
-  };
+  //const handleDateChange = (date) => {
+    //setSelectedDate(date); // Update selectedDate when the date picker value changes
+  //};
 
   return (
     <div className="timezone-selector-container">
