@@ -11,7 +11,7 @@ function TimeZoneSlider({ timeZone, timeValue, updateTimeValue, removeTimeZone, 
   const [sliderValue, setSliderValue] = useState(0);
   const [sliderTime, setSliderTime] = useState('');
   const [sliderDate, setSliderDate] = useState('');
- // const [sliderStep, setSliderStep] = useState(0.1); // Adjust step size
+  const [sliderStep] = useState(0.1); // Adjust step size
   
 
   const [debouncedSliderValue, setDebouncedSliderValue] = useState(0);
