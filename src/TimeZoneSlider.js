@@ -11,15 +11,15 @@ function TimeZoneSlider({ timeZone, timeValue, updateTimeValue, removeTimeZone, 
   const [sliderValue, setSliderValue] = useState(0);
   const [sliderTime, setSliderTime] = useState('');
   const [sliderDate, setSliderDate] = useState('');
-  const [sliderStep, setSliderStep] = useState(0.1); // Adjust step size
+ // const [sliderStep, setSliderStep] = useState(0.1); // Adjust step size
   
 
   const [debouncedSliderValue, setDebouncedSliderValue] = useState(0);
   const [currentDateTime, setCurrentDateTime] = useState('');
-  const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+ // const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
   let dateDisplay = '';
   if (selectedDate) {
-    dateDisplay = selectedDate.format('YYYY-MM-DD');
+  //  dateDisplay = selectedDate.format('YYYY-MM-DD');
   }
   useEffect(() => {
     // Initialize the slider value, slider time, and slider date when the component mounts
