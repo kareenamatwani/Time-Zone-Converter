@@ -1,0 +1,26 @@
+/* .dark-mode-toggle {
+     width: 50px;
+     height: 50px;
+    background-color: #d9534f
+  } */
+  
+  .dark-mode-button {
+  
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+   
+  }
+
+  .dark-mode-button:hover {
+    background-color: #0056b3;
+  }
+  .dark-mode-toggle {
+    width: 50px;
+    height: 50px;
+  }
+  .dark-mode {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
