@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## Timezone Converter 
+The Timezone Converter is a web-based tool that allows you to convert and compare different timezones easily. You can add multiple timezones, compare their current times, and make conversions as needed.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+Add Timezones: Select and add various timezones to the converter, so you can easily compare times between them.
 
-## Available Scripts
+Real-time Updates: The application displays the current time for each selected timezone, updating in real-time.
 
-In the project directory, you can run:
+Dark Mode: Toggle between dark and light mode for your convenience.
 
-### `npm start`
+Current Date and Time : It fetches current time and date for respective timezone selected
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Drag/Drop : Drag and Drop functionality is provided for dragging and dropping multiple timezone sliders.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+1. Clone this repository to your local machine.
+2. 
+3. Install the necessary dependencies:
+   npm install
+   
+4. Start the application:
+   npm start
+   
+5. Open your web browser and access the application at http://localhost:3000.
 
-### `npm test`
+6. Use the Timezone Converter to add, compare, and convert timezones based on your requirements.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Libraries Used
+ 1. React
+ 2. Moment-Timezone
+ 3. React DnD (Drag and Drop)
+ 4. FontAwesome and React icons for icons
+ 5. React slider (rc-slider)
+ 6. React Datepicker
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks for reading!
