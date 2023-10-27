@@ -17,7 +17,7 @@ function TimeZoneSlider({ timeZone, timeValue, updateTimeValue, removeTimeZone, 
   const [debouncedSliderValue, setDebouncedSliderValue] = useState(0);
   const [currentDateTime, setCurrentDateTime] = useState('');
  // const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-  let dateDisplay = '';
+ // let dateDisplay = '';
   if (selectedDate) {
   //  dateDisplay = selectedDate.format('YYYY-MM-DD');
   }
